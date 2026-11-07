@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{titulo}}</title>
+<meta name="description" content="{{descripcion}}">
+<meta property="og:title" content="{{titulo}}">
+<meta property="og:description" content="{{descripcion}}">
+<meta property="og:image" content="{{imagen_social}}">
+<meta name="theme-color" content="#600b36">
+<link rel="icon" href="https://fundacionakumbele.org/wp-content/uploads/2026/09/cropped-favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{prefijo}}css/estilo.css">
+</head>
+<body>
+<header class="cabecera">
+  <div class="contenedor cabecera-fila">
+    <a class="logo" href="{{prefijo}}index.html"><small>Fundación</small>Akumbele</a>
+    <button class="menu-boton" aria-label="Abrir menú" aria-expanded="false" onclick="document.body.classList.toggle('menu-abierto');this.setAttribute('aria-expanded',document.body.classList.contains('menu-abierto'))">
+      <span></span><span></span><span></span></button>
+    <nav class="menu">{{menu}}</nav>
+  </div>
+</header>
+
+<main>
+{{contenido}}
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie-fila">
+    <div>
+      <p class="logo logo-pie"><small>Fundación</small>Akumbele</p>
+      <p class="pie-lema">{{lema}}</p>
+    </div>
+    <nav class="pie-menu">{{menu}}</nav>
+    <div class="pie-contacto">
+      <p>{{contacto}}</p>
+      <p class="pie-legal">© {{anio}} {{nombre}}</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

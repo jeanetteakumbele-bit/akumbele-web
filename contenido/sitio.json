@@ -1,0 +1,24 @@
+{
+  "nombre": "Fundación Akumbele",
+  "lema": "Todo empieza con el agua",
+  "descripcion": "Fundación cultural que construye pozos y huertas con comunidades rurales de África, y lo financia con el arte que nace de ellas.",
+  "url_base": "",
+  "imagenes": "https://fundacionakumbele.org/wp-content/uploads/",
+  "contacto": {
+    "email": "",
+    "instagram": "",
+    "web_actual": "https://fundacionakumbele.org/contacto/"
+  },
+  "menu": [
+    { "titulo": "Qué hacemos", "url": "que-hacemos.html" },
+    { "titulo": "Historias",   "url": "historias.html" },
+    { "titulo": "Nosotros",    "url": "nosotros.html" },
+    { "titulo": "Colabora",    "url": "colabora.html", "boton": true }
+  ],
+  "cifras": [
+    { "valor": "20+",  "texto": "años en el terreno" },
+    { "valor": "6",    "texto": "países africanos" },
+    { "valor": "6",    "texto": "áreas de trabajo" },
+    { "valor": "3",    "texto": "visitas al año a cada comunidad" }
+  ]
+}

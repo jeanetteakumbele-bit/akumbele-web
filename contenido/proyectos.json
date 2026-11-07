@@ -1,0 +1,29 @@
+[
+  {
+    "titulo": "Pozo de agua para Mutua y Hakaona",
+    "lugar": "Oncócua, Cunene · Angola",
+    "area": "Agua",
+    "estado": "En desarrollo",
+    "texto": "Ya contamos con un socio local. El estudio de campo para localizar el agua y fijar el punto de perforación es el siguiente paso.",
+    "coste": "",
+    "imagen": "2026/10/COMUNIDAD-MUTUA.jpg"
+  },
+  {
+    "titulo": "Agricultura en Oncócua",
+    "lugar": "Oncócua, Cunene · Angola",
+    "area": "Agricultura",
+    "estado": "En preparación",
+    "texto": "Huertas y riego para que el agua del pozo se convierta en comida e ingresos para las familias.",
+    "coste": "",
+    "imagen": "2026/10/CUNENE-ANGOLA-1.jpg"
+  },
+  {
+    "titulo": "Ganadería en Oncócua",
+    "lugar": "Oncócua, Cunene · Angola",
+    "area": "Oficios & Desarrollo",
+    "estado": "En preparación",
+    "texto": "Apoyo a la ganadería local, pensado junto a la comunidad y gestionado por ella.",
+    "coste": "",
+    "imagen": "2026/10/IMG_9574.jpg"
+  }
+]
