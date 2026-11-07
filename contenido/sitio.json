@@ -13,6 +13,7 @@
     { "titulo": "Qué hacemos", "url": "que-hacemos.html" },
     { "titulo": "Historias",   "url": "historias.html" },
     { "titulo": "Nosotros",    "url": "nosotros.html" },
+    { "titulo": "Noticias",    "url": "noticias.html" },
     { "titulo": "Colabora",    "url": "colabora.html", "boton": true }
   ],
   "cifras": [

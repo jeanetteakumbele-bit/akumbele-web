@@ -183,3 +183,27 @@ section{padding:clamp(56px,8vw,110px) 0}
   .relato figcaption{padding-inline:0}
   .foto-marco img{box-shadow:10px 10px 0 var(--naranja)}
 }
+
+/* Noticias (se rellenan desde noticias.json) */
+[hidden]{display:none!important}
+.noticias{padding-top:56px}
+.noticia{padding-bottom:48px;margin-bottom:48px;border-bottom:1px solid var(--crema2);scroll-margin-top:96px}
+.noticia:last-child{border-bottom:0;margin-bottom:0}
+.noticia-fecha{font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--naranja-osc);margin-bottom:.8em;display:block}
+.noticia h2.noticia-titulo{font-size:clamp(1.8rem,3.6vw,2.6rem)}
+.noticia .noticia-resumen{font-family:var(--serif);font-size:1.35rem;line-height:1.5}
+.noticia-foto{margin:2rem 0}
+.noticia-foto img{width:100%;border-radius:var(--radio);max-height:80vh;object-fit:cover}
+.noticia-foto figcaption{font-size:.85rem;color:var(--suave);margin-top:.6rem}
+.noticia-texto p{font-size:1.1rem;line-height:1.75}
+.noticias-vacio{text-align:center;color:var(--suave);font-family:var(--serif);font-size:1.4rem;padding:40px 0}
+.noticias-rejilla{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.noticia-tarjeta{display:flex;flex-direction:column;background:var(--crema);border-radius:var(--radio);overflow:hidden;text-decoration:none;color:inherit;transition:transform .25s, box-shadow .25s}
+.noticia-tarjeta:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(33,33,35,.1)}
+.noticia-tarjeta-img{display:block;aspect-ratio:4/3;background:var(--granate) center/cover}
+.noticia-tarjeta-cuerpo{display:flex;flex-direction:column;padding:22px 24px 26px;flex:1}
+.noticia-tarjeta .noticia-titulo{font-family:var(--serif);font-weight:600;font-size:1.4rem;line-height:1.15;color:var(--granate);margin-bottom:.4em}
+.noticia-tarjeta .noticia-resumen{color:var(--suave);font-size:.98rem}
+.noticia-leer{margin-top:auto;padding-top:1rem;font-weight:700;color:var(--granate)}
+@media (max-width:960px){ .noticias-rejilla{grid-template-columns:1fr 1fr} }
+@media (max-width:720px){ .noticias-rejilla{grid-template-columns:1fr} }

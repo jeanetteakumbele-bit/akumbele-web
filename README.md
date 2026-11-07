@@ -12,6 +12,7 @@ Web estática generada con **Python** (sin instalar nada más), gestionada con *
 | Textos de inicio, nosotros, etc.   | `paginas/*.html`                            |
 | Colores y diseño                   | `estaticos/css/estilo.css`                  |
 | Cabecera y pie (todas las páginas) | `plantillas/base.html`                      |
+| Noticias                           | Panel con contraseña: `/admin.html` (guarda en `estaticos/noticias.json`) |
 
 **Imágenes:** basta con poner la parte final de la dirección de una foto de fundacionakumbele.org, p. ej. `2026/10/mutua-3.jpg`. Para fotos propias, guárdalas en `estaticos/img/` y escribe `img/nombre.jpg`.
 
